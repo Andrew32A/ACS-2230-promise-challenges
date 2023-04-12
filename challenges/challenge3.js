@@ -68,14 +68,14 @@ async function greetAndUppercase(name) {
 }
 
 /* Uncomment me! #1 */
-// result = greetAndUppercase('Ducky')
-// console.log(result)
+result = greetAndUppercase('Ducky')
+console.log(result)
 
 /* Uncomment me! #2 */
-// greetAndUppercase('Ducky')
-//     .then(function(result) {
-//         console.log(result)
-//     })
-//     .catch(function(err) {
-//         console.log(err)
-//     })
+greetAndUppercase('Ducky')
+    .then(function(result) {
+        console.log(result)
+    })
+    .catch(function(err) {
+        console.log(err)
+    })
